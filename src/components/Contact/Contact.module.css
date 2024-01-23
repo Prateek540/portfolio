@@ -1,0 +1,106 @@
+.ContactContainer {
+  height: 100vh;
+  width: 80vw;
+  margin: auto;
+}
+
+.ContactSection {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 90vh;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 5px #969696;
+}
+
+.ContactMe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  font-size: 2rem;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  color: #0d9494;
+  text-shadow: 1px 1px 1px #969696;
+}
+
+.DetailMe {
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: 1.2px;
+  word-spacing: 2px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #000100;
+  text-shadow: 1px 1px 1px #969696;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  min-width: 50%;
+  min-height: 50%;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #0d9494;
+}
+
+.input {
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.button {
+  background-color: #0d9494;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.FooterContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2vh;
+}
+
+.FooterData {
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: 1.2px;
+  word-spacing: 2px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #000100;
+  text-shadow: 1px 1px 1px #969696;
+}
+
+@media (max-width: 768px) {
+  .ContactMe {
+    font-size: 1.5rem;
+  }
+
+  .DetailMe {
+    font-size: 0.8rem;
+  }
+  .FooterData {
+    font-size: 0.8rem;
+  }
+}

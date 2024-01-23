@@ -1,0 +1,46 @@
+.flexContainer {
+  display: flex;
+  height: 100vh;
+}
+
+.flexItem {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.details {
+  margin: 10px;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  color: #0d9494;
+  text-shadow: 1px 1px 1px #969696;
+}
+
+.name {
+  color: #000100;
+}
+
+.image {
+  width: 100%;
+  height: 480px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px #0d9494;
+}
+
+@media (max-width: 768px) {
+  .flexContainer {
+    flex-direction: column;
+  }
+
+  .details {
+    font-size: 1rem;
+  }
+
+  .image {
+    height: 320px;
+  }
+}
